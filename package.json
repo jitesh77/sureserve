@@ -1,0 +1,35 @@
+{
+  "name": "loginpage",
+  "version": "1.0.0",
+  "description": "Simple Login Page to learn more about nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-vera-g/LoginPage.git"
+  },
+  "author": "Daniel VG",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/daniel-vera-g/LoginPage/issues"
+  },
+  "homepage": "https://github.com/daniel-vera-g/LoginPage#readme"
+}
